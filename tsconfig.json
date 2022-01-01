@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "esNext",
+    "sourceMap": true,
+    "allowJs": false,
+    "skipLibCheck": false,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "experimentalDecorators": true,
+    "outDir": "dist"
+  },
+  "types": ["Phaser"],
+  "typeRoots": ["node_modules/@types"],
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
